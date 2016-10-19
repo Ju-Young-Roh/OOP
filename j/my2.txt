@@ -1,0 +1,18 @@
+String[] cities ={"Seoul","NY","Sydney"};
+for(String s:cities)
+System.out.println(s);
+import ch.aplu.turtle.*;
+Turtle t1 = new Turtle();
+t1.home();
+t1.clear();
+for(int i = 0; i<4; i++){
+  t1.forward(100);
+  t1.right(90);
+}
+void drawSquare(int size){
+  for(int i=0; i<4; i++){
+    t1.forward(size);
+    t1.right(90);
+}
+}
+drawSquare(50);
