@@ -1,4 +1,4 @@
-package com.sd.turtle;
+//package com.sd.turtle;
 import ch.aplu.turtle.*;
 
 class TurtleDemoMain{
